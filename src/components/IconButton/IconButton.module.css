@@ -1,0 +1,19 @@
+.iconButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-light-bg-color);
+  box-shadow: var(--basic-box-shadow);
+}
+
+.iconButton:hover,
+.iconButton:focus {
+  color: var(--basic-light-text-color);
+  background-color: var(--accent-bg-color);
+}
+
+.deleteContactBtn {
+  border-radius: 50%;
+}

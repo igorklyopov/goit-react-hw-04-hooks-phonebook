@@ -1,0 +1,34 @@
+.contactsFilterInput {
+  display: block;
+  width: 90%;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 10px;
+  font-family: "Russo One";
+  font-size: 18px;
+  color: var(--secondary-text-color);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--secondary-bg-color);
+  box-shadow: var(--basic-box-shadow);
+}
+
+@media screen and (min-width: 768px) {
+  .contactsFilterInput {
+    width: 40%;
+  }
+}
+
+.contactsFilterLabel {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.contactsFilterLabelText {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: var(--medium-font-weight);
+  text-transform: uppercase;
+}

@@ -1,0 +1,17 @@
+.addContactBtn {
+  width: 150px;
+  height: 40px;
+  padding: 5px 10px 5px 10px;
+  color: var(--secondary-text-color);
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: var(--secondary-light-bg-color);
+  border-radius: 5px;
+  box-shadow: var(--basic-box-shadow);
+}
+
+.addContactBtn:hover,
+.addContactBtn:focus {
+  color: var(--basic-light-text-color);
+  background-color: var(--accent-bg-color);
+}
